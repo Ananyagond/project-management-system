@@ -4,7 +4,7 @@
   "description": "Backend for Project Management System",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "npx serve -s dist",
     "dev": "nodemon server.js"
   },
   "dependencies": {
