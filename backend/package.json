@@ -4,8 +4,10 @@
   "description": "Backend for Project Management System",
   "main": "server.js",
   "scripts": {
-    "start": "npx serve -s dist",
-    "dev": "nodemon server.js"
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "start": "npx serve -s dist"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
