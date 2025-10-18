@@ -1,23 +1,19 @@
 {
-  "name": "project-management-backend",
+  "name": "project-management-frontend",
   "version": "1.0.0",
-  "description": "Backend for Project Management System",
-  "main": "server.js",
+  "private": true,
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "start": "npx serve -s dist"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "npx serve -s dist"
   },
   "dependencies": {
-    "@google/generative-ai": "^0.24.1",
-    "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2",
-    "mongodb": "^6.20.0",
-    "mongoose": "^8.0.3"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "nodemon": "^3.0.2"
+    "vite": "^5.0.0",
+    "serve": "^14.2.0"
   }
 }
